@@ -1,105 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1080" role="img" aria-labelledby="title desc">
-<title id="title">Jaipur creative studio panorama</title><desc id="desc">An original illustrated Jaipur skyline with Hawa Mahal inspired architecture, Amer Fort, a rooftop creative studio, kites and an arrow flying toward a target.</desc>
-<defs>
- <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#e5a0a0"/><stop offset=".48" stop-color="#f5c18f"/><stop offset="1" stop-color="#f4e5ce"/></linearGradient>
- <linearGradient id="stone" x2="0" y2="1"><stop stop-color="#d98678"/><stop offset="1" stop-color="#9d4f45"/></linearGradient>
- <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#edc16c"/><stop offset="1" stop-color="#b66a37"/></linearGradient>
- <linearGradient id="indigo" x2="0" y2="1"><stop stop-color="#445b7e"/><stop offset="1" stop-color="#202c48"/></linearGradient>
- <pattern id="jali" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M17 2 31 17 17 32 3 17Z" fill="none" stroke="#f7dcb3" stroke-width="2" opacity=".65"/><circle cx="17" cy="17" r="3" fill="#f7dcb3" opacity=".65"/></pattern>
- <pattern id="textile" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M22 2 40 22 22 42 4 22Z" fill="none" stroke="#e0a34f" stroke-width="2"/><path d="M22 10 32 22 22 34 12 22Z" fill="none" stroke="#f3d8b4"/></pattern>
- <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="14"/></filter>
-</defs>
-<rect width="1800" height="1080" fill="url(#sky)"/>
-<circle cx="1370" cy="210" r="100" fill="#fff0ca" opacity=".55"/><circle cx="1370" cy="210" r="140" fill="#fff0ca" opacity=".16"/>
-<g fill="#fff0d9" opacity=".42"><path d="M0 240q95-75 190 0 80-80 175-5-68 5-111 40H0z"/><path d="M900 165q75-60 150-4 76-75 162-5-54 0-96 35H900z"/><path d="M1450 395q70-60 145-5 60-54 132-4-55 0-80 35h-197z"/></g>
-<!-- distant Aravalli contours -->
-<path d="M0 680 115 603 210 629 310 540 415 616 525 552 650 638 775 542 890 613 1010 520 1120 608 1260 500 1360 588 1480 510 1590 595 1700 500 1800 575v505H0Z" fill="#947c6b" opacity=".45"/>
-<path d="M0 720 160 635 270 685 405 595 530 692 660 605 800 685 965 590 1090 680 1230 575 1370 666 1530 580 1660 670 1800 600v480H0Z" fill="#6e786f" opacity=".45"/>
-<!-- Amer fort on ridge -->
-<g transform="translate(1020 360)">
- <path d="M0 245 0 190 60 180 75 130 140 132 150 82 210 90 228 30 315 34 335 95 400 98 420 150 505 163 530 245Z" fill="#b87548"/>
- <path d="M30 185 70 155 105 155 122 115 175 115 200 65 245 65 270 105 320 108 345 145 390 145 413 180 470 190 480 245H30Z" fill="#d49a5d"/>
- <path d="M0 205h530v42H0z" fill="#87543f"/><path d="M45 185h70v-45h72v-35h65v40h75v-35h70v65h70v25H45Z" fill="#e8b977"/>
- <g fill="#543d35"><path d="M68 188v-30q18-27 36 0v30zM180 164v-34q19-26 38 0v34zM294 172v-38q18-26 36 0v38zM408 189v-35q18-26 36 0v35z"/></g>
- <path d="M0 243h530" stroke="#f1c986" stroke-width="10"/>
- <g fill="#a85f3e"><path d="M110 112q32-55 64 0v7h-64zM222 56q34-63 68 0v9h-68zM350 88q33-58 66 0v9h-66z"/></g>
-</g>
-<!-- Hawa Mahal in middle distance -->
-<g transform="translate(680 455)">
- <path d="M0 255V92q25-30 50 0v-35q24-32 49 0V30q27-33 54 0V10q27-28 55 0v20q27-33 54 0v27q26-32 51 0v35q26-31 52 0v163Z" fill="url(#stone)" stroke="#8b453f" stroke-width="5"/>
- <path d="M22 255V105q24-32 48 0v-42q25-33 50 0V43q26-33 52 0V23q28-34 56 0v20q27-33 54 0v20q26-33 52 0v42q25-31 50 0v150Z" fill="#c56e64"/>
- <g fill="#7d3e3c" stroke="#f6d5ad" stroke-width="5">
- <path d="M36 112q18-36 36 0v42h-36zM36 184q18-36 36 0v42h-36z"/><path d="M85 112q18-36 36 0v42h-36zM85 184q18-36 36 0v42h-36z"/><path d="M134 112q18-36 36 0v42h-36zM134 184q18-36 36 0v42h-36z"/><path d="M183 112q18-36 36 0v42h-36zM183 184q18-36 36 0v42h-36z"/><path d="M232 112q18-36 36 0v42h-36zM232 184q18-36 36 0v42h-36z"/><path d="M281 112q18-36 36 0v42h-36zM281 184q18-36 36 0v42h-36z"/><path d="M330 112q18-36 36 0v42h-36zM330 184q18-36 36 0v42h-36z"/>
- </g>
- <g fill="#f2c18a"><path d="M38 69q16-28 32 0v9h-32z"/><path d="M87 69q16-28 32 0v9h-32z"/><path d="M136 69q16-28 32 0v9h-32z"/><path d="M185 69q16-28 32 0v9h-32z"/><path d="M234 69q16-28 32 0v9h-32z"/><path d="M283 69q16-28 32 0v9h-32z"/><path d="M332 69q16-28 32 0v9h-32z"/></g>
- <path d="M-15 255h380v22H-15z" fill="#8a5145"/>
- <path d="M20 90h325M0 158h365" stroke="#edc18d" stroke-width="6"/>
-</g>
-<!-- city rooftops -->
-<g fill="#d09a70" stroke="#8d5d4d" stroke-width="4">
- <path d="M0 770v-125h70v-70h85v55h55v140z"/><path d="M170 775v-118h65v-55h92v56h58v117z"/><path d="M1280 755v-110h80v-65h92v52h68v123z"/><path d="M1500 760v-130h75v-56h93v48h132v138z"/>
-</g>
-<g fill="#704b40"><path d="M27 690q20-38 40 0v42H27zM193 680q18-35 36 0v36h-36zM285 675q18-35 36 0v36h-36zM1310 680q20-38 40 0v39h-40zM1450 666q20-37 40 0v38h-40zM1550 670q20-38 40 0v40h-40zM1680 670q20-38 40 0v40h-40z"/></g>
-<!-- foreground rooftop terrace -->
-<path d="M0 830q240-55 495 0t525 0 780 0v250H0Z" fill="#c58b65"/>
-<path d="M0 830q240-55 495 0t525 0 780 0v40H0Z" fill="#e5b27d"/>
-<path d="M0 875h1800v205H0Z" fill="#aa7057"/>
-<path d="M0 900h1800v180H0Z" fill="url(#textile)" opacity=".45"/>
-<!-- terrace balustrade -->
-<path d="M0 760h1800v28H0Z" fill="#e8c8a0"/><path d="M0 788h1800v12H0Z" fill="#8a5a4a"/>
-<g fill="#f0d6b4" stroke="#a56a50" stroke-width="3">
- <path d="M6 790v75h10v-75zM1 787h20v9H1z"/><path d="M84 790v75h10v-75zM79 787h20v9H79z"/><path d="M162 790v75h10v-75zM157 787h20v9H157z"/><path d="M240 790v75h10v-75zM235 787h20v9H235z"/><path d="M318 790v75h10v-75zM313 787h20v9H313z"/><path d="M396 790v75h10v-75zM391 787h20v9H391z"/><path d="M474 790v75h10v-75zM469 787h20v9H469z"/><path d="M552 790v75h10v-75zM547 787h20v9H547z"/><path d="M630 790v75h10v-75zM625 787h20v9H625z"/><path d="M708 790v75h10v-75zM703 787h20v9H703z"/><path d="M786 790v75h10v-75zM781 787h20v9H781z"/><path d="M864 790v75h10v-75zM859 787h20v9H859z"/><path d="M942 790v75h10v-75zM937 787h20v9H937z"/><path d="M1020 790v75h10v-75zM1015 787h20v9H1015z"/><path d="M1098 790v75h10v-75zM1093 787h20v9H1093z"/><path d="M1176 790v75h10v-75zM1171 787h20v9H1171z"/><path d="M1254 790v75h10v-75zM1249 787h20v9H1249z"/><path d="M1332 790v75h10v-75zM1327 787h20v9H1327z"/><path d="M1410 790v75h10v-75zM1405 787h20v9H1405z"/><path d="M1488 790v75h10v-75zM1483 787h20v9H1483z"/><path d="M1566 790v75h10v-75zM1561 787h20v9H1561z"/><path d="M1644 790v75h10v-75zM1639 787h20v9H1639z"/><path d="M1722 790v75h10v-75zM1717 787h20v9H1717z"/><path d="M1800 790v75h10v-75zM1795 787h20v9H1795z"/>
-</g>
-<path d="M0 790h1800" stroke="#f8e1c0" stroke-width="8"/>
-<!-- right jharokha framed studio -->
-<g transform="translate(1270 250)">
- <path d="M0 620V160Q0 0 270 0t270 160v460Z" fill="#a6534e" stroke="#713b3b" stroke-width="15"/>
- <path d="M32 620V165Q32 35 270 35t238 130v455Z" fill="#e2a17e" stroke="#f4d4ac" stroke-width="12"/>
- <path d="M72 620V176Q72 75 270 75t198 101v444Z" fill="#403c49"/>
- <path d="M58 176q0-125 212-125t212 125" fill="none" stroke="#f4d9b7" stroke-width="18"/>
- <path d="M103 190q0-87 167-87t167 87" fill="none" stroke="#d9a16f" stroke-width="7"/>
- <path d="M45 620h450" stroke="#f4d6b2" stroke-width="20"/>
- <path d="M-10 625h540" stroke="#7d4542" stroke-width="17"/>
- <path d="M90 235h360M90 300h360" stroke="#e7bd95" stroke-width="5" opacity=".7"/>
- <path d="M110 205v420M430 205v420" stroke="#efc69e" stroke-width="7"/>
- <!-- inner lantern -->
- <path d="M270 75v55" stroke="#6c443c" stroke-width="5"/>
- <path d="M246 130h48l-7 68h-34z" fill="#d7a33e" stroke="#713b3b" stroke-width="4"/>
- <path d="M251 140h38v42h-38z" fill="#f8d991"/>
- <path d="M260 148l20 25m0-25-20 25" stroke="#ac6b30" stroke-width="3"/>
-</g>
-<!-- studio table and creative tools -->
-<g transform="translate(990 755)">
- <path d="M-70 105h630l-30 28H-50Z" fill="#553b39"/><path d="M-40 132h18v150h-18zM510 132h18v150h-18z" fill="#64443c"/>
- <path d="M-70 104 0 75h545l85 29-55 24H-35Z" fill="#7e4a43"/>
- <path d="M-15 91h555l-18 13H0z" fill="#e0ad70"/>
- <path d="M10 87h500l-65 40H74z" fill="url(#textile)" opacity=".8"/>
- <!-- laptop -->
- <path d="M155-94h256q15 0 15 15v170H143V-79q0-15 12-15z" fill="#293d65" stroke="#1f2a40" stroke-width="8"/>
- <rect x="158" y="-79" width="250" height="150" rx="3" fill="#efe1c9"/>
- <path d="M173-61h220" stroke="#bd5d68" stroke-width="7"/>
- <path d="M178-35h95v8h-95zM178-15h70v5h-70z" fill="#293d65"/>
- <rect x="290" y="-38" width="94" height="85" fill="#d9b99a"/>
- <path d="m300 35 24-28 17 18 18-31 18 42z" fill="#347266"/>
- <path d="M125 91h325l-35 16H160Z" fill="#8c98a8" stroke="#293d65" stroke-width="5"/>
- <!-- books -->
- <g transform="translate(458 -8)"><path d="M0 0h160v33H0z" fill="#293d65" stroke="#e5c28b" stroke-width="3"/><path d="M10 35h153v31H10z" fill="#8e3c49" stroke="#e5c28b" stroke-width="3"/><path d="M-5 68h175v30H-5z" fill="#347266" stroke="#e5c28b" stroke-width="3"/><g fill="#f4d7a8" font-family="Georgia" font-size="19"><text x="20" y="24">DESIGN</text><text x="24" y="57">BUILD</text><text x="22" y="90">GROW</text></g></g>
- <!-- chai cup -->
- <g transform="translate(70 20)"><path d="M0 0h77l-8 76H10Z" fill="#a34d35" stroke="#6d392e" stroke-width="4"/><path d="M76 16q50-9 35 28-7 16-38 13" fill="none" stroke="#6d392e" stroke-width="9"/><path d="M13 10h52" stroke="#e4b478" stroke-width="4"/><path d="M28-7q-12-25 4-36M49-7q-8-26 9-38" fill="none" stroke="#fff4df" stroke-width="5" opacity=".8"/></g>
- <!-- pencil cup -->
- <g transform="translate(20 -25)"><path d="M0 0h65l-8 78H9Z" fill="#293d65"/><path d="M12 0 6-68m21 68 18-82m5 82 29-61" stroke="#d7a33e" stroke-width="7"/><path d="M5 20h58" stroke="#f1d8ae" stroke-width="4"/></g>
-</g>
-<!-- foliage -->
-<g fill="#46684f"><path d="M0 0q70 42 120 130-78-47-120-40M0 0q120 25 170 95-100-28-170-5M1800 0q-90 46-130 140 90-49 130-44M1800 0q-130 28-180 109 104-31 180-10"/></g>
-<g fill="#bd5d68"><circle cx="38" cy="75" r="17"/><circle cx="74" cy="102" r="14"/><circle cx="110" cy="54" r="16"/><circle cx="1710" cy="84" r="15"/><circle cx="1672" cy="115" r="17"/><circle cx="1753" cy="132" r="14"/></g>
-<!-- kites -->
-<g transform="translate(1080 150)"><path d="M0-47 48 0 0 47-48 0z" fill="#bd5d68" stroke="#8e3d43" stroke-width="5"/><path d="M0-47V47M-48 0H48" stroke="#f5dcaf" stroke-width="4"/><path d="M0 47q-24 22 0 42t0 42" fill="none" stroke="#8e3d43" stroke-width="3"/></g>
-<g transform="translate(910 270) scale(.7)"><path d="M0-47 48 0 0 47-48 0z" fill="#d7a33e" stroke="#9d5d32" stroke-width="5"/><path d="M0-47V47M-48 0H48" stroke="#fff0d0" stroke-width="4"/><path d="M0 47q-24 22 0 42" fill="none" stroke="#9d5d32" stroke-width="3"/></g>
-<!-- arrow trajectory and arrow -->
-<path d="M120 430C410 300 600 300 810 350s220 22 286-40" fill="none" stroke="#d7a33e" stroke-width="6" stroke-dasharray="16 14" opacity=".9"/>
-<g transform="translate(1090 310) rotate(-18)"><path d="M-110 0H35" stroke="#713b3b" stroke-width="12" stroke-linecap="round"/><path d="m35 0 55-26-9 26 9 26z" fill="#d7a33e" stroke="#713b3b" stroke-width="4"/><path d="M-110 0-148-27-130 0-148 27z" fill="#293d65" stroke="#d7a33e" stroke-width="4"/><path d="M-80-3v-25m25 25v-25" stroke="#d7a33e" stroke-width="4"/></g>
-<!-- target -->
-<g transform="translate(1430 300)" fill="none" stroke="#d7a33e"><circle r="45" stroke-width="9"/><circle r="27" stroke-width="8"/><circle r="9" stroke-width="8"/></g>
-<!-- floor foreground ornamental border -->
-<path d="M0 1045q50-35 100 0t100 0 100 0 100 0 100 0 100 0 100 0 100 0 100 0 100 0 100 0 100 0 100 0 100 0 100 0 100 0 100 0 100 0 100 0" fill="none" stroke="#e4ba7b" stroke-width="5" opacity=".7"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1080"><defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#df9b9b"/><stop offset=".55" stop-color="#f3c18f"/><stop offset="1" stop-color="#f3e8d6"/></linearGradient><linearGradient id="stone" x2="0" y2="1"><stop stop-color="#d98678"/><stop offset="1" stop-color="#914a45"/></linearGradient><pattern id="jali" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M16 2 30 16 16 30 2 16Z" fill="none" stroke="#f6d8b4" stroke-width="2" opacity=".7"/></pattern></defs><rect width="1800" height="1080" fill="url(#sky)"/><circle cx="1430" cy="180" r="105" fill="#fff0cd" opacity=".7"/><path d="M0 660 140 570 280 635 440 525 560 620 710 505 855 600 1000 510 1150 610 1320 500 1450 590 1610 500 1800 590v490H0Z" fill="#958273" opacity=".55"/><path d="M0 745 185 630 330 695 480 585 630 685 790 575 930 690 1090 560 1260 660 1405 555 1570 675 1800 570v510H0Z" fill="#68756b" opacity=".44"/>
+<!-- Hawa Mahal inspired rose facade -->
+<g transform="translate(560 390)"><path d="M0 355V125q27-37 54 0V85q27-37 54 0V50q29-38 58 0V25q31-37 62 0v25q29-38 58 0v35q28-37 56 0v40q27-37 54 0v230Z" fill="url(#stone)" stroke="#85463e" stroke-width="7"/><g fill="#783b3b" stroke="#f5d6b0" stroke-width="5"><path d="M32 148q22-39 44 0v62H32zM32 246q22-39 44 0v65H32zM100 148q22-39 44 0v62h-44zM100 246q22-39 44 0v65h-44zM168 148q22-39 44 0v62h-44zM168 246q22-39 44 0v65h-44zM236 148q22-39 44 0v62h-44zM236 246q22-39 44 0v65h-44zM304 148q22-39 44 0v62h-44zM304 246q22-39 44 0v65h-44z"/></g><path d="M-10 355h380v25H-10z" fill="#7e4740"/><path d="M0 119h370M0 225h370" stroke="#edbd91" stroke-width="7"/></g>
+<!-- Amer ridge fort -->
+<g transform="translate(1150 345)"><path d="M0 270V190l72-20 36-63 84 15 50-80 92 15 34 70 88 20 38 63 70 20v40Z" fill="#c58a52"/><path d="M0 270h620v22H0z" fill="#8b5944"/><g fill="#68483e"><path d="M55 220v-42q20-33 40 0v42zM183 220v-45q21-34 42 0v45zM320 220v-45q22-34 44 0v45zM458 220v-44q21-33 42 0v44z"/></g><path d="M100 126q40-60 80 0v13h-80zM245 54q42-70 84 0v15h-84zM405 110q39-60 78 0v13h-78z" fill="#a75d42"/></g>
+<!-- old city blocks -->
+<g fill="#d19a70" stroke="#8c5d4d" stroke-width="5"><path d="M0 760V630h105v-80h98v80h80v130Z"/><path d="M245 770V650h98v-66h105v65h70v121Z"/><path d="M1300 755V635h90v-70h100v60h85v130Z"/><path d="M1540 760V620h105v-74h115v75h90v139Z"/></g><g fill="#704b40"><path d="M30 660q20-42 40 0v46H30zM145 643q20-38 40 0v40h-40zM280 674q20-38 40 0v40h-40zM1340 660q20-40 40 0v40h-40zM1480 657q20-38 40 0v40h-40zM1610 642q20-40 40 0v45h-40z"/></g>
+<!-- rooftop desk studio foreground -->
+<path d="M0 850q210-56 430 0t430 0 470 0 470 0v230H0Z" fill="#b87b5f"/><path d="M0 887h1800v193H0Z" fill="url(#jali)" opacity=".55"/><g transform="translate(1020 740)"><path d="M-80 130h680l-45 24H-45Z" fill="#583d3a"/><path d="M-25 150h18v130h-18zM540 150h18v130h-18z" fill="#68463c"/><path d="M130-105h290q14 0 14 15v192H115V-90q0-15 15-15z" fill="#293d65" stroke="#1f2a40" stroke-width="8"/><rect x="132" y="-88" width="266" height="173" rx="3" fill="#f3eadb"/><path d="M150-66h220" stroke="#c77c78" stroke-width="8"/><path d="M153-38h90v7h-90zM153-18h68v6h-68z" fill="#293d65"/><rect x="260" y="-43" width="120" height="112" fill="#d9b99a"/><path d="m270 58 26-47 25 25 22-38 28 60z" fill="#347266"/><path d="M95 104h340l-33 18H128Z" fill="#8492a6" stroke="#293d65" stroke-width="4"/><g transform="translate(-20 54)"><path d="M0 0h75l-7 79H8z" fill="#a6533f" stroke="#69372d" stroke-width="4"/><path d="M74 19q45-7 31 28-6 16-36 10" fill="none" stroke="#69372d" stroke-width="8"/><path d="M18-4q-10-23 5-36m21 36q-7-25 8-39" fill="none" stroke="#fff4df" stroke-width="4"/></g><g transform="translate(448 -18)"><path d="M0 0h142v31H0zM8 33h148v30H8zM-6 65h165v29H-6z" fill="#293d65" stroke="#e6c28b" stroke-width="3"/><g font-family="Georgia" font-size="17" fill="#f4d7a8"><text x="20" y="22">DESIGN</text><text x="28" y="55">BUILD</text><text x="24" y="86">GROW</text></g></g></g>
+<!-- jharokha on right -->
+<g transform="translate(1480 140)"><path d="M0 620V175Q0 0 260 0t260 175v445Z" fill="#9e5149" stroke="#733d3e" stroke-width="12"/><path d="M34 620V178Q34 40 260 40t226 138v442Z" fill="#e6ae89" stroke="#f7dcb7" stroke-width="11"/><path d="M70 620V190Q70 82 260 82t190 108v430Z" fill="#3d4351"/><path d="M54 180q0-128 206-128t206 128" fill="none" stroke="#f8dcb8" stroke-width="17"/><path d="M88 230h344M88 300h344" stroke="#ebc39e" stroke-width="5" opacity=".7"/><path d="M260 82v65" stroke="#6e473a" stroke-width="5"/><path d="M236 145h48l-6 64h-36z" fill="#d7a33e" stroke="#6e473a" stroke-width="4"/><path d="M245 155h30v41h-30z" fill="#ffdf9c"/></g>
+<!-- kites and moving arrow -->
+<g transform="translate(1060 120)"><path d="M0-50 49 0 0 50-49 0z" fill="#bd6571" stroke="#813e48" stroke-width="5"/><path d="M0-50v100M-49 0h98" stroke="#f8e4c5" stroke-width="4"/><path d="M0 50q-24 25 0 48t0 47" fill="none" stroke="#813e48" stroke-width="3"/></g><g transform="translate(875 240) scale(.7)"><path d="M0-50 49 0 0 50-49 0z" fill="#d7a33e" stroke="#8d5b35" stroke-width="5"/><path d="M0-50v100M-49 0h98" stroke="#fff0d0" stroke-width="4"/></g><path d="M130 375C400 245 650 250 850 325s220 35 290-36" fill="none" stroke="#d7a33e" stroke-width="6" stroke-dasharray="17 14"/><g transform="translate(1120 290) rotate(-18)"><path d="M-100 0H35" stroke="#713b3b" stroke-width="12" stroke-linecap="round"/><path d="m35 0 55-26-9 26 9 26z" fill="#d7a33e" stroke="#713b3b" stroke-width="4"/><path d="M-100 0-140-28-125 0-140 28z" fill="#293d65" stroke="#d7a33e" stroke-width="4"/></g><g transform="translate(1430 300)" fill="none" stroke="#d7a33e"><circle r="47" stroke-width="9"/><circle r="28" stroke-width="8"/><circle r="9" stroke-width="8"/></g>
 </svg>
