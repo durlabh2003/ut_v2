@@ -1,75 +1,43 @@
-# Udta Teer — Website Redesign
+# Udta Teer — Jaipur-rooted creative digital studio
 
-A Jaipur-rooted creative digital transformation agency website exploring a Rajasthan-inspired visual identity.
+A bespoke, responsive multi-page website for Udta Teer, built as a static site with HTML, CSS, SVG illustration assets and vanilla JavaScript. It is designed to deploy directly from the repository root on Vercel.
 
-## Preview locally
+## Pages
 
-This first branch implementation is a self-contained HTML prototype.
+- `/` — Home: Jaipur-inspired hero, Design / Build / Grow service cards, concept portfolio, process, industries, starting packages, FAQ and studio notes.
+- `/services/design.html`, `/services/build.html`, `/services/grow.html` — individual service pages.
+- `/work/` — concept portfolio with explicit concept-only disclosure.
+- `/packages/`, `/industries/`, `/about/`, `/contact/`.
+- `/free-website-audit/`, `/insights/`, an editorial article, `/legal/privacy.html`, `/legal/terms.html`, and `/404.html`.
 
-1. Download or clone the `redesign/udta-teer` branch.
-2. Keep `index.html` and the `assets/` directory together.
-3. Open `index.html` in a browser, or run:
+## Experience and accessibility
+
+- Responsive layouts and mobile navigation.
+- Persistent light / dark appearance preference.
+- English / Hindi switching for translated page elements.
+- Search overlay with keyboard shortcut `Ctrl/⌘ + K` and Escape to close.
+- Three-step project planner with required-field validation and downloadable project brief.
+- Website audit request flow that prepares a local downloadable request.
+- Industry selector, FAQ accordions, skip link, accessible form labels, visible focus styles and reduced-motion support.
+- Custom SVG illustration assets for design, development, growth, arrow mark and studio motif. The Jaipur panorama `assets/jaipur-creative-hero.svg` is retained from the earlier redesign branch.
+
+## Important launch configuration
+
+This implementation intentionally does not invent a business email, phone number, WhatsApp number, address or client history.
+
+- `config.js` is the public configuration placeholder. Add only verified contact information.
+- Project planner, contact enquiry and audit forms generate local `.txt` files. They do **not** send information to the studio and do not claim to have run a website scan. Configure and test a secure form endpoint before enabling real lead submission.
+- Replace the Vercel-domain references in `sitemap.xml` with the final approved domain if a custom domain is connected. Add page-specific canonical URLs at that time.
+- Legal pages are drafts and should be reviewed against the business's actual data practices before production use.
+- Portfolio entries are explicitly presented as illustrative concepts; replace them only with approved real case studies.
+- Prices are indicative starting amounts supplied for the brand and need a commercial review before publication.
+
+## Run locally
 
 ```bash
 python -m http.server 4173
 ```
 
-Then visit `http://localhost:4173`.
+Then open `http://localhost:4173`.
 
-## Current implementation
-
-- Warm ivory, Jaipur rose, terracotta, marigold and indigo visual direction.
-- Original SVG illustration of a Jaipur-inspired skyline, Hawa Mahal-inspired façade, Amer Fort silhouette, jharokha studio, desk, chai, kites and arrow.
-- Responsive navigation and mobile menu.
-- Design / Build / Grow interactive service explorer with original inline SVG illustrations.
-- Five-stage process, industry selector and portfolio concept previews.
-- Starting-price package presentation.
-- FAQ accordion.
-- Light / dark appearance toggle.
-- English / Hindi hero and navigation toggle.
-- Project brief modal with validation and copy-to-clipboard behaviour.
-- Keyboard shortcut `K` for the kite visual cue.
-- Reduced-motion support.
-
-## Important limitations before production
-
-This is the first homepage prototype, not the complete production website.
-
-- The site currently uses a single-page structure; individual service, case-study, package, industry, about, contact and insights routes remain to be built.
-- The website-audit request flow and full three-step lead flow are not connected to a backend in this initial prototype.
-- The project brief is prepared locally. It is not sent to Udta Teer until a verified secure form endpoint is configured.
-- WhatsApp, business email, phone, social accounts and physical address must be populated with confirmed details.
-- Portfolio projects, client marks, testimonials, performance figures and team biographies must be replaced with real approved content.
-- Hindi translation currently covers the hero and primary navigation only.
-- Search interface, analytics, sitemap, canonical URL and structured data are not yet implemented.
-- Complete browser QA across mobile, tablet and desktop is still required.
-
-## Brand palette
-
-| Name | Value |
-|---|---|
-| Desert Ivory | `#F2EBDD` |
-| Jaipur Rose | `#C77C78` |
-| Terracotta | `#AA573E` |
-| Marigold | `#D7A33E` |
-| Royal Indigo | `#293D65` |
-| Peacock Green | `#347266` |
-| Sandstone | `#D9B99A` |
-| Charcoal | `#292724` |
-
-## Branch strategy
-
-- `main`: repository baseline.
-- `redesign/udta-teer`: active redesign branch.
-
-Keep production deployment on `main` until the redesign has been reviewed, expanded and tested.
-
-## Next implementation milestones
-
-1. Refine the responsive homepage and illustration composition.
-2. Complete service detail and portfolio/case-study pages.
-3. Build package, industry, process, about, contact and insights pages.
-4. Finish the full Hindi translation.
-5. Connect enquiry and audit forms to secure endpoints.
-6. Configure verified contact details, SEO and analytics.
-7. Run browser-based accessibility, responsive and functional QA.
+No build step or package installation is required.
